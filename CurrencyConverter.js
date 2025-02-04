@@ -17,7 +17,7 @@ const CurrencyConverter = () => {
     }
 
     setLoading(true);
-    const apiKey = '2b8ece57d35aa358260d1cc6'; 
+    const apiKey = ''; 
     const url = `https://v6.exchangerate-api.com/v6/${apiKey}/latest/${fromCurrency}`;
 
     try {
