@@ -13,16 +13,21 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gabbyjoy.firstproject"
     },
     "android": {
       "adaptiveIcon": {
+        "bundleIdentifier": "com.gabbyjoy.firstproject",
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.gabbyjoy.firstproject"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
-  }
+    "package": "com.gabbyjoy.FirstProject"
+  },
+  "web": {
+    "favicon": "./assets/favicon.png"
+  },
+  "scheme": "FirstProject"
 }
