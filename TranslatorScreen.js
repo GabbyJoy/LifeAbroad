@@ -11,7 +11,7 @@ const TranslatorScreen = () => {
   // Function to handle translation
   const handleTranslate = async () => {
     try {
-      const apiKey = 'AIzaSyCm26rOvcUopcEfBh4pHXXW0BkOK4ZiX8o'; 
+      const apiKey = ''; 
       const url = `https://translation.googleapis.com/language/translate/v2?key=${apiKey}`;
 
       const response = await axios.post(url, {
